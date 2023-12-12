@@ -2,6 +2,9 @@
 
 [Payload](https://github.com/payloadcms/payload/blob/main/templates/ecommerce)
 
+### Checkins
+![checkins](./checkins.png)
+
 ### Homepage
 ![home](./home.png)
 ### Login
