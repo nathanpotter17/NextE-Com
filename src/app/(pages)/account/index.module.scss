@@ -1,0 +1,46 @@
+.account {
+  margin-bottom: var(--block-padding);
+}
+
+.params {
+  margin-top: var(--base);
+}
+
+.purchasesList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--base);
+}
+
+.purchase {
+  > * {
+    margin: 0;
+  }
+}
+
+.noPurchases {
+  font-weight: 600;
+}
+
+.hidableContent {
+  display: none;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.active {
+  display: block;
+  max-height: 500px;
+}
+
+.dropdownHeader {
+  cursor: pointer;
+  user-select: none;
+}
+
+.ordersButton {
+  margin-top: var(--block-padding);
+}
